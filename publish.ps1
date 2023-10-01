@@ -1,6 +1,6 @@
 ﻿param(
     [string]$pathToSecrets = "../secrets/",
-    [string]$apiKeyFile = "SelfEduNugetPushKey",
+    [string]$apiKeyFile = "ProximaCommandLineLaptopKey",
     [string]$nugetSource = "nuget.org",
     [switch]$signKey,
     [switch]$clear
