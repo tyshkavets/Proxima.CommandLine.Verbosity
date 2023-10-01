@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>Proxima.CommandLine.Verbosity</PackageId>
+        <Version>1.1.0</Version>
+        <Authors>Siarhei Tyshkavets</Authors>
+        <Company>Siarhei Tyshkavets - Proxima Project</Company>
+        <PackageTags>command_line console verbose</PackageTags>
+        <Description>
+            Package made to add a --verbose command line option, that is usually very similar for most console apps.
+        </Description>
+        <RepositoryUrl>https://github.com/tyshkavets/Proxima.CommandLine.Verbosity</RepositoryUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\LICENSE;..\README.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
+</Project>
